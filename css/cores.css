@@ -1,0 +1,33 @@
+body {
+    background-image: url(../img/lodyas.png);
+/*
+    background-repeat: repeat;
+    background-size: 800px;
+*/
+    background-color: #212121;
+}
+
+.txt-verde{
+    color: #66bb6a !important;
+}
+
+.txt-preto{
+    color: #212121;
+}
+
+.bkg-verde{
+    background-color: #43A047;
+}
+
+.bkg-menu{
+    background-color: #0d0d0d;
+}
+
+.bkg-vermelho{
+    background-color: #F44336;
+}
+
+nav ul li a:hover{
+    color: #F44336;
+    transition: 0.7s;
+}

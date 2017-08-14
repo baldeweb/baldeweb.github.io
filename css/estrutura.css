@@ -1,0 +1,894 @@
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0.3em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #a92c2c;
+    outline: 1px solid slategrey;
+}
+
+
+/* == MOBILE FIRST == */
+
+
+/* BASICO */
+
+.container {
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+/* GERAL */
+
+.secoes {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.spn-linha {
+    width: 40%;
+    height: 3px;
+    float: right;
+    border-radius: 10px;
+    position: relative;
+    top: -53px;
+}
+
+#helper {
+    height: 80px;
+}
+
+
+/* MENU */
+
+#logo {
+    width: 180px;
+    margin-top: -15px;
+    /*        background-color: forestgreen;*/
+}
+
+#foto-pessoal {
+    width: 250px;
+    height: 250px;
+}
+
+.separador1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    clear: both;
+}
+
+.separador2 {
+    margin-top: 40px;
+    width: 100%;
+    float: left;
+    /*        background-color: aqua;*/
+}
+
+.whatsapp {
+    /*        width: 40%;*/
+    float: left;
+}
+
+.email {
+    /*        width: 40%;*/
+    float: left;
+}
+
+.separador12 {
+    width: 100%;
+    margin-top: 70px;
+    float: left;
+}
+
+#menu-nav {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    padding: 30px 0;
+    position: fixed;
+    z-index: 9999;
+}
+
+#menu-nav ul {
+    display: none;
+    float: right;
+    margin-top: 3px;
+}
+
+#menu-nav ul li {
+    display: inline-block;
+}
+
+#menu-nav ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.7;
+}
+
+#menu-nav ul li a:hover {
+    transition: 0.7;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio {
+    margin-top: 50px;
+}
+
+.btn-acessar {
+    width: 100%;
+    height: auto;
+    padding: 10px 45px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #43A047;
+    font-weight: bold;
+    color: #f5f5f5;
+    transition: 0.8s;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.btn-acessar:hover {
+    transition: 0.8s;
+    background: #43A047;
+}
+
+
+/* QUEM SOU */
+
+#foto-pessoal {
+    width: 100%;
+    height: auto;
+}
+
+#foto-pessoal img {
+    width: 100%;
+}
+
+.txt-conteudo {
+    width: 100%;
+}
+
+
+/* CONTATO */
+
+label {
+    margin-bottom: 50px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid #f00;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+input[type="button"] {
+    padding: 15px 20px;
+    border-style: none;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 800px;
+    right: 0;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+input[type="button"]:hover {
+    transition: 0.7s;
+    background-color: #1B5E20;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid #f00;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: none;
+    background-color: transparent;
+}
+
+@media(min-width: 320px) {
+    /* BASICO */
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+    }
+    /* GERAL */
+    .secoes {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 40px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .spn-linha {
+        width: 45%;
+        height: 3px;
+        float: right;
+        border-radius: 10px;
+        position: relative;
+        top: -53px;
+    }
+    /* MENU */
+    #logo {
+        width: 130px;
+        position: absolute;
+        margin-top: -15px;
+        left: calc(100% - 73% + 5px);
+        /*        background-color: forestgreen;*/
+    }
+    #helper {
+        height: 80px;
+    }
+    #foto-pessoal {
+        width: 250px;
+        height: 250px;
+    }
+    .separador1 {
+        width: 100%;
+        float: left;
+        text-align: center;
+        clear: both;
+    }
+    .separador2 {
+        margin-top: 40px;
+        width: 100%;
+        float: left;
+        /*        background-color: aqua;*/
+    }
+    .whatsapp {
+        /*        width: 40%;*/
+        float: left;
+    }
+    .email {
+        /*        width: 40%;*/
+        float: left;
+    }
+    .separador12 {
+        width: 100%;
+        margin-top: 70px;
+        float: left;
+    }
+    #menu-hamburguer {
+        display: inline;
+        position: absolute;
+        left: -5px;
+        width: 24px;
+        top: -7px;
+        cursor: pointer;
+    }
+    #menu-fechar {
+        display: none;
+        position: absolute;
+        right: -5px;
+        width: 30px;
+        top: -7px;
+        z-index: 100;
+        background-color: #B71C1C;
+        padding: 5px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    #menu-nav {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 70px;
+        padding: 30px 0;
+        position: fixed;
+        z-index: 9999;
+    }
+    #antes-menu {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 2000px;
+        float: left;
+    }
+    #menu-nav ul {
+        display: none;
+        float: left;
+        margin-left: 31%;
+        margin-top: 3px;
+        text-align: center;
+    }
+    #menu-nav ul li {
+        margin-top: 100px;
+        display: block;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #menu-nav ul li a {
+        text-align: center;
+        text-decoration: none;
+        /*        margin-left: 20px;*/
+        transition: 0.7;
+    }
+    #menu-nav ul li a:hover {
+        transition: 0.7;
+    }
+    /* QUEM SOU */
+    #foto-pessoal {
+        width: 70%;
+        height: 70%;
+    }
+    .txt-conteudo {
+        width: 100%;
+    }
+    /* CONTATO */
+    label {
+        margin-bottom: 50px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 2px solid #f00;
+        border-radius: 7px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        background-color: transparent;
+    }
+    input[type="button"] {
+        padding: 15px 20px;
+        border-style: none;
+        border-radius: 30px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        position: absolute;
+        top: 800px;
+        right: 0;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+    input[type="button"]:hover {
+        transition: 0.7s;
+        background-color: #1B5E20;
+    }
+    textarea {
+        width: 100%;
+        height: 250px;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 2px solid #f00;
+        border-radius: 7px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        resize: none;
+        background-color: transparent;
+    }
+}
+
+@media(min-width: 480px) {
+    /* BASICO */
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+    }
+    /* GERAL */
+    .secoes {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 40px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .spn-linha {
+        width: 65%;
+        height: 3px;
+        float: right;
+        border-radius: 10px;
+        position: relative;
+        top: -53px;
+    }
+    /* MENU */
+    #logo {
+        width: 130px;
+        margin-top: -15px;
+        position: absolute;
+        left: calc(100% - 65% + 5px);
+        /*                background-color: pink;*/
+    }
+    #helper {
+        height: 80px;
+    }
+    #foto-pessoal {
+        width: 250px;
+        height: 250px;
+    }
+    .separador1 {
+        width: 100%;
+        float: left;
+        text-align: center;
+        clear: both;
+    }
+    .separador2 {
+        margin-top: 40px;
+        width: 100%;
+        float: left;
+        /*        background-color: aqua;*/
+    }
+    .whatsapp {
+        /*        width: 40%;*/
+        float: left;
+    }
+    .email {
+        /*        width: 40%;*/
+        float: left;
+    }
+    .separador12 {
+        /*        width: 100%;*/
+        margin-top: 70px;
+        float: left;
+    }
+    #menu-nav {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        height: 70px;
+        padding: 30px 0;
+        position: fixed;
+        z-index: 9999;
+    }
+    #menu-nav ul {
+        display: none;
+        float: right;
+        margin-top: 3px;
+    }
+    #menu-nav ul li {
+        display: inline-block;
+    }
+    #menu-nav ul li a {
+        text-decoration: none;
+        margin-left: 20px;
+        transition: 0.7;
+    }
+    #menu-nav ul li a:hover {
+        transition: 0.7;
+    }
+    /* PORTFOLIO */
+    #img-foodfast {
+        float: left;
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        z-index: 9997;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    #img-moviesbr {
+        display: none;
+    }
+    /* QUEM SOU */
+    .txt-conteudo {
+        width: 100%;
+    }
+    /* CONTATO */
+    label {
+        margin-bottom: 50px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 2px solid #f00;
+        border-radius: 7px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        background-color: transparent;
+    }
+    input[type="button"] {
+        padding: 15px 20px;
+        border-style: none;
+        border-radius: 30px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        position: absolute;
+        top: 800px;
+        right: 0;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+    input[type="button"]:hover {
+        transition: 0.7s;
+        background-color: #1B5E20;
+    }
+    textarea {
+        width: 100%;
+        height: 250px;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 2px solid #f00;
+        border-radius: 7px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        resize: none;
+        background-color: transparent;
+    }
+}
+
+@media(min-width: 768px) {
+    /* BASICO */
+    body::-webkit-scrollbar {
+        width: 0.5em;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+    }
+    /* GERAL */
+    .secoes {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 40px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .spn-linha {
+        width: 75%;
+        height: 3px;
+        float: right;
+        border-radius: 10px;
+        position: relative;
+        top: -53px;
+    }
+    /* MENU */
+    #logo {
+        width: 180px;
+        margin-top: -15px;
+        position: absolute;
+        left: 0;
+        margin-top: -15px;
+        float: left;
+    }
+    #helper {
+        height: 80px;
+    }
+    #foto-pessoal {
+        width: 250px;
+        height: 250px;
+    }
+    .separador1 {
+        width: 30%;
+        float: left;
+    }
+    .separador2 {
+        width: 70%;
+        float: left;
+    }
+    .whatsapp {
+        /*        width: 40%;*/
+        float: left;
+    }
+    .email {
+        /*        width: 40%;*/
+        float: left;
+    }
+    .separador12 {
+        width: auto;
+        margin-top: 70px;
+        float: left;
+    }
+    #menu-hamburguer {
+        display: none;
+    }
+    #menu-fechar {
+        display: none;
+    }
+    /* ATENÇÃO */
+    #antes-menu {
+        top: -100px;
+        height: 40px;
+        display: inline;
+        background-color: green;
+    }
+    #menu-nav {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        height: 80px;
+        padding: 30px 0;
+        position: fixed;
+        z-index: 9998;
+    }
+    #menu-nav ul {
+        display: inline;
+        float: right;
+        margin-top: 3px;
+    }
+    #menu-nav ul li {
+        display: inline-block;
+    }
+    #menu-nav ul li a {
+        text-decoration: none;
+        margin-left: 20px;
+        transition: 0.7;
+    }
+    #menu-nav ul li a:hover {
+        transition: 0.7;
+    }
+    /* QUEM SOU */
+    .txt-conteudo {
+        margin-top: -30px;
+        width: 80%;
+    }
+    /* CONTATO */
+    label {
+        margin-bottom: 50px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 600px;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 2px solid #f00;
+        border-radius: 7px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        background-color: transparent;
+    }
+    input[type="button"] {
+        padding: 15px 20px;
+        border-style: none;
+        border-radius: 30px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        position: absolute;
+        top: 700px;
+        right: 0;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+    input[type="button"]:hover {
+        transition: 0.7s;
+        background-color: #1B5E20;
+    }
+    textarea {
+        width: 600px;
+        height: 250px;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 2px solid #f00;
+        border-radius: 7px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        resize: none;
+        background-color: transparent;
+    }
+}
+
+@media(min-width: 1024px) {
+    /* BASICO */
+    body::-webkit-scrollbar {
+        width: 0.5em;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+    }
+    /* GERAL */
+    .secoes {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 40px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .spn-linha {
+        width: 80%;
+        height: 3px;
+        float: right;
+        border-radius: 10px;
+        position: relative;
+        top: -53px;
+    }
+    /* MENU */
+    #logo {
+        width: 180px;
+        margin-top: -15px;
+        /*                background-color: skyblue;*/
+    }
+    #helper {
+        height: 80px;
+    }
+    #foto-pessoal {
+        width: 250px;
+        height: 250px;
+    }
+    .separador1 {
+        width: 30%;
+        text-align: left;
+        float: left;
+    }
+    .separador2 {
+        width: 70%;
+        float: left;
+    }
+    .whatsapp {
+        /*        width: 40%;*/
+        float: left;
+    }
+    .email {
+        /*        width: 40%;*/
+        float: left;
+    }
+    #menu-nav {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        height: 80px;
+        padding: 30px 0;
+        position: fixed;
+        z-index: 9999;
+    }
+    #menu-nav ul {
+        float: right;
+        margin-top: 3px;
+    }
+    #menu-nav ul li {
+        display: inline-block;
+    }
+    #menu-nav ul li a {
+        text-decoration: none;
+        margin-left: 20px;
+        transition: 0.7;
+    }
+    #menu-nav ul li a:hover {
+        transition: 0.7;
+    }
+    /* PORTFOLIO */
+    .btn-acessar {
+        width: 100%;
+        height: auto;
+        padding: 10px 45px;
+        box-sizing: border-box;
+        text-align: center;
+        border: 2px solid #43A047;
+        font-weight: bold;
+        color: #f5f5f5;
+        transition: 0.8s;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        border-radius: 20px;
+        background: transparent;
+    }
+    .btn-acessar:hover {
+        transition: 0.8s;
+        background: #43A047;
+    }
+    /* QUEM SOU */
+    .txt-conteudo {
+        margin-top: -58px;
+        width: 92%;
+    }
+    /* CONTATO */
+    .separador12 {
+        margin-top: 0px;
+        float: right;
+    }
+    label {
+        margin-bottom: 50px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 500px;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 2px solid #D50000;
+        border-radius: 7px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        background-color: transparent;
+        transition: 0.8s;
+    }
+    input[type="text"]:focus {
+        transition: 0.8s;
+        border: 2px solid #E57373;
+    }
+    input[type="email"]:focus {
+        transition: 0.8s;
+        border: 2px solid #E57373;
+    }
+    input[type="button"] {
+        padding: 15px 20px;
+        border-style: none;
+        border-radius: 30px;
+        box-sizing: border-box;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        position: absolute;
+        top: 630px;
+        right: 0;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+    input[type="button"]:hover {
+        transition: 0.7s;
+        background-color: #1B5E20;
+    }
+    textarea {
+        width: 500px;
+        height: 250px;
+        padding: 15px;
+        box-sizing: border-box;
+        border: 2px solid #D50000;
+        border-radius: 7px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        resize: none;
+        background-color: transparent;
+        transition: 0.8s;
+    }
+    textarea:focus {
+        transition: 0.8s;
+        border: 2px solid #E57373;
+    }
+}
+
+@media(min-width: 1440px) {}

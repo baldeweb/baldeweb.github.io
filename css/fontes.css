@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+* {
+    font-family: 'Raleway', sans-serif;
+    /*    font-family: 'Montserrat', sans-serif;*/
+    color: white;
+}
+
+.txt-quem-sou {
+    text-align: justify;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.1rem;
+    float: right;
+    line-height: 20px;
+}
+
+.txt-menu {
+    color: #f5f5f5;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.txt-upper {
+    text-transform: uppercase !important;
+}
+
+.txt-centro {
+    text-align: center;
+}
+
+.txt-rodape{
+    font-size: 10px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: justify;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.1rem;
+    line-height: 20px;
+    font-size: 0.8rem;
+}
+
+@media(min-width: 320px){
+    
+}
+@media(min-width: 480px){
+    
+}
+@media(min-width: 768px){
+    
+}
+@media(min-width: 1024px){
+    
+}
+@media(min-width: 1440px){
+    
+}
