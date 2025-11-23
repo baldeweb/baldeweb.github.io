@@ -1,0 +1,206 @@
+import React from "react";
+import { getPriceRangeLabel } from "@/core/domain/enums/priceRangeLabel";
+import { getEnvironmentLabel } from "@/core/domain/enums/environmentLabel";
+import { FaArrowLeft, FaInstagram, FaMapMarkerAlt, FaExclamationTriangle } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
+
+interface PlaceDetailProps {
+    isAlreadyVisited?: boolean;
+    onShowOpeningHours?: () => void;
+    priceRange?: string;
+    name: string;
+    description: string;
+    type: string;
+    icon?: React.ReactNode;
+    openingDays: string[];
+    isOpenNow: boolean;
+    neighborhood: string;
+    address: string;
+    googleMapsUrl: string;
+    instagramUrl: string;
+    menuUrl: string;
+    notes: string[];
+    onBack: () => void;
+    foodStyle?: string[];
+    tags?: string[];
+}
+
+export const PlaceDetail: React.FC<PlaceDetailProps> = ({
+    name,
+    description,
+    type,
+    priceRange,
+    icon,
+    openingDays,
+    isOpenNow,
+    neighborhood,
+    address,
+    googleMapsUrl,
+    instagramUrl,
+    menuUrl,
+    notes,
+    onBack,
+    onShowOpeningHours,
+    isAlreadyVisited,
+    foodStyle = [],
+    tags = [],
+}) => {
+    const { t } = useTranslation();
+    const [showVisitModal, setShowVisitModal] = React.useState(false);
+
+    // Ambiente: foodStyle para RESTAURANT, tags para outros
+    const ambienteList: string[] = type === "RESTAURANT" ? foodStyle : tags;
+
+    return (
+        <div className="min-h-screen bg-bs-bg text-white flex flex-col">
+            {/* Top Bar - apenas botão Voltar */}
+            <div className="bg-black relative border-b-2 border-bs-red">
+                <div className="mx-auto max-w-5xl flex items-center px-4 pt-12 pb-4">
+                    <button onClick={onBack} className="text-white text-lg font-bold flex items-center">
+                        <FaArrowLeft className="mr-2" /> {t('common.back')}
+                    </button>
+                    {/* Chips de status */}
+                    <div className="ml-auto flex gap-2">
+                        {isAlreadyVisited ? (
+                            <button
+                                className="bg-green-600 text-white text-xs font-bold px-4 py-2 rounded shadow flex items-center"
+                                onClick={() => setShowVisitModal(true)}
+                            >
+                                {t('placeDetail.alreadyVisited')}
+                            </button>
+                        ) : (
+                            <button
+                                className="bg-yellow-400 text-black text-xs font-bold px-4 py-2 rounded shadow flex items-center border border-yellow-600"
+                                onClick={() => setShowVisitModal(true)}
+                            >
+                                {t('placeDetail.notVisited')}
+                            </button>
+                        )}
+                    </div>
+                </div>
+            </div>
+            {/* Modal explicativo */}
+            {showVisitModal && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
+                    <div className="bg-bs-card rounded-lg shadow-lg w-[90vw] max-w-md border border-white">
+                        <div className="flex items-center justify-between px-4 py-3 border-b-2 border-bs-red">
+                            <h2 className="font-bold text-lg uppercase">{t('placeDetail.visitModalTitle')}</h2>
+                            <button onClick={() => setShowVisitModal(false)} className="text-white text-xl font-bold">×</button>
+                        </div>
+                        <div className="p-5 text-center">
+                            <p className="mb-2 text-sm text-gray-200">
+                                {t('placeDetail.visitModalParagraph')}<br /><br />
+                                <span className="font-bold text-red-400">{t('placeDetail.neverEmphasis')}</span> {t('placeDetail.visitModalEnding')}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {/* Main Content */}
+            <div className="flex-1 pb-4">
+                <div className="border-b-2 border-bs-red px-4 pt-4 pb-2 flex items-center">
+                    {icon || <span className="text-5xl mr-4">☕</span>}
+                    <div>
+                        <h1 className="text-2xl font-bold uppercase">{name}</h1>
+                        <p className="text-sm text-gray-300">{description}</p>
+                        {priceRange && (
+                            <p className="text-xs mt-1 text-gray-300">
+                                <span className="font-semibold">{t('placeDetail.priceLabel')}</span> {getPriceRangeLabel(priceRange as any)}
+                            </p>
+                        )}
+                        {/* Tipo de ambiente */}
+                        {ambienteList.length > 0 && (
+                            <div className="mt-2">
+                                <span className="font-semibold text-xs">{t('placeDetail.environmentTypeLabel')}</span>
+                                <ul className="flex flex-wrap gap-2 mt-1">
+                                    {ambienteList.map((amb: string, idx: number) => (
+                                        <li key={idx} className="bg-gray-700 px-2 py-1 rounded text-xs">{getEnvironmentLabel(amb)}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
+                    </div>
+                    <span className="ml-auto bg-gray-700 text-xs px-3 py-1 rounded">{type}</span>
+                </div>
+
+                {/* Horário de funcionamento */}
+                <div className="px-4 py-3">
+                    <div className="flex items-center justify-between">
+                        <h2 className="font-bold text-lg uppercase">{t('placeDetail.hoursTitle')}</h2>
+                        <span
+                            className="text-xs text-gray-300 cursor-pointer"
+                            onClick={onShowOpeningHours}
+                        >
+                            {t('placeDetail.viewHours')}
+                        </span>
+                    </div>
+                    <div className="mt-2 space-y-1">
+                        {openingDays.map((day, idx) => (
+                            <div key={idx} className="flex items-center">
+                                <input type="checkbox" checked readOnly className="accent-green-500 mr-2" />
+                                <span className="text-sm">{day}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Localização */}
+                <div className="border-t-2 border-bs-red px-4 py-3">
+                    <div className="flex items-center justify-between mb-2">
+                        <h2 className="font-bold text-lg uppercase">{t('placeDetail.locationTitle')}</h2>
+                        {isOpenNow ? (
+                            <span className="bg-green-600 text-xs px-2 py-1 rounded">{t('placeDetail.openNow')}</span>
+                        ) : (
+                            <span className="bg-red-600 text-xs px-2 py-1 rounded">{t('placeDetail.closedNow')}</span>
+                        )}
+                    </div>
+                    <p className="text-sm text-gray-200 mb-2">{t('placeDetail.locationDescription')}</p>
+                    <div className="mb-2">
+                        <span className="font-bold uppercase">{neighborhood}</span>
+                        <div className="text-sm">{t('placeDetail.streetPrefix')} {address}</div>
+                    </div>
+                    <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-bs-red text-white px-4 py-2 rounded font-bold">
+                        <FaMapMarkerAlt className="mr-2" /> {t('placeDetail.googleMapsButton')}
+                    </a>
+                </div>
+
+                {/* Instagram, Cardápio, Observação */}
+                <div className="bg-gray-800 px-4 py-4 mt-4 space-y-4">
+                    <div className="flex items-center justify-between">
+                        <div>
+                            <h3 className="font-bold uppercase">{t('placeDetail.instagramTitle')}</h3>
+                            <p className="text-sm text-gray-300">{t('placeDetail.instagramSubtitle')}</p>
+                        </div>
+                        <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-bs-red text-white px-4 py-2 rounded font-bold">
+                            <FaInstagram className="mr-2" /> {t('placeDetail.follow')}
+                        </a>
+                    </div>
+                    <div className="flex items-center justify-between">
+                        <div>
+                            <h3 className="font-bold uppercase">{t('placeDetail.menuTitle')}</h3>
+                            <p className="text-sm text-gray-300">{t('placeDetail.menuSubtitle')}</p>
+                        </div>
+                        <a href={menuUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-bs-red text-white px-4 py-2 rounded font-bold">
+                            {t('placeDetail.menuButton')}
+                        </a>
+                    </div>
+                    <div>
+                        <h3 className="font-bold uppercase">{t('placeDetail.notesTitle')}</h3>
+                        <ul className="list-disc ml-5 text-sm text-gray-300">
+                            {notes.map((note, idx) => (
+                                <li key={idx}>{note}</li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            {/* Footer */}
+            <div className="bg-black border-t-2 border-bs-red py-3 px-4 flex items-center justify-center">
+                <FaExclamationTriangle className="mr-2 text-white" />
+                <span className="text-white font-bold">{t('placeDetail.reportProblem')}</span>
+            </div>
+        </div>
+    );
+}

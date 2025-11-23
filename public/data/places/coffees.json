@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "name": "Kofi & Co 🇧🇷",
+        "type": "COFFEE",
+        "phones": [
+            {
+                "number": "1136244838",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "KOFICO_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Opções variadas de preparo de café",
+            "Diferentes opções de pratos"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Alexandre Dumas",
+                "number": "1518",
+                "city": "São Paulo",
+                "neighborhood": "Chácara Santo Antônio",
+                "postalCode": "04717-003",
+                "isMainUnity": true,
+                "latitude": -23.6312621,
+                "longitude": -46.7079005
+            }
+        ],
+        "linkMenu": "https://menu.colibricloud.com/app/kofi-co-matriz/kofi-co-matriz",
+        "linkWebsite": "https://linktr.ee/kofi_and_co_est_2016?fbclid=PAZXh0bgNhZW0CMTEAAac8B0tIVcFIPS2B3DwcyY26qqx-OtwQJPlXVyhj7Bx4swQJSgFZGLujNRK6Hw_aem_IbLam0j7ciBrkvyCqaL4cw",
+        "linkInstagram": "https://www.instagram.com/kofiandco/",
+        "tags": [
+            "PET_FRIENDLY", "BISTRO"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Griffinn Café e Afins 🇧🇷",
+        "type": "COFFEE",
+        "phones": [
+            {
+                "number": "11913586058",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "GRIFFINN_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Ambiente temático medieval"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Campo Grande",
+                "number": "417",
+                "city": "São Paulo",
+                "neighborhood": "Vila Leopoldina",
+                "postalCode": "05302-051",
+                "isMainUnity": true,
+                "latitude": -23.5325995,
+                "longitude": -46.7268279
+            }
+        ],
+        "linkMenu": "a",
+        "linkWebsite": "https://griffinncafeeafins.com.br/",
+        "linkInstagram": "",
+        "tags": [
+            "THEMED"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Café Floresta",
+        "type": "COFFEE",
+        "phones": [
+            {
+                "number": "1132598416",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "CAFE_FLORESTA_DAYTIME",
+            "customOverrides": [
+                { "days": ["SUNDAY"], "open": "07:00", "close": "20:30" }
+            ]
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Localizado no edifício Copan"
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Ipiranga",
+                "number": "200",
+                "city": "São Paulo",
+                "neighborhood": "Centro",
+                "postalCode": "01046-010",
+                "isMainUnity": true,
+                "latitude": -23.5464022,
+                "longitude": -46.6446354
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    }
+]

@@ -1,0 +1,395 @@
+[
+    {
+        "id": 1,
+        "name": "Parque da Água Branca",
+        "type": "NATURE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "PARQUE_AGUA_BRANCA_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Relógio do Sol",
+            "Monumento do Gado",
+            "Busto Dr. Fernando Costa",
+            "Pequenas trilhas",
+            "Tanque de carpas",
+            "Nascentes"
+        ],
+        "priceRange": "FREE",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Francisco Matarazzo",
+                "number": "455",
+                "city": "São Paulo",
+                "neighborhood": "Água Branca",
+                "postalCode": "05001-900",
+                "isMainUnity": true,
+                "latitude": -23.5292762,
+                "longitude": -46.6711211
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://parqueaguabranca.com.br/",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 2,
+        "name": "Praça Pôr do Sol",
+        "type": "NATURE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "PRACA_PORDOSOL_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Vista do Pôr-do-Sol em São Paulo"
+        ],
+        "priceRange": "FREE",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Cel. Custódio Fernandes Pinheiro",
+                "number": "334",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05463-090",
+                "isMainUnity": true,
+                "latitude": -23.5540027,
+                "longitude": -46.7047719
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://www.pracapordosol.com/",
+        "linkInstagram": "",
+        "tags": [
+            "PET_FRIENDLY"
+        ]
+        
+    },
+    {
+        "id": 3,
+        "name": "Parque Augusta",
+        "type": "NATURE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "PARQUE_AUGUSTA_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "FREE",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Augusta",
+                "number": "201",
+                "city": "São Paulo",
+                "neighborhood": "Consolação",
+                "postalCode": "01303-050",
+                "isMainUnity": true,
+                "latitude": -23.5497278,
+                "longitude": -46.6498923
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [
+            "PET_FRIENDLY"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Parque Praia do Sol",
+        "type": "NATURE",
+        "phones": [
+            {
+                "number": "1156662919",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "PRAIADOSOL_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "FREE",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Atlântica",
+                "number": "S/N",
+                "city": "São Paulo",
+                "neighborhood": "Interlagos",
+                "postalCode": "04772-001",
+                "isMainUnity": true,
+                "latitude": -23.6960711,
+                "longitude": -46.7190195
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [
+            "PET_FRIENDLY"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Kite Point Guarapiranga",
+        "type": "NATURE",
+        "phones": [
+            {
+                "number": "11973214904",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "FRI_TO_SUN_1017_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Passeios de barco pela represa Guarapiranga"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Atlântica",
+                "number": "3834",
+                "city": "São Paulo",
+                "neighborhood": "Interlagos",
+                "postalCode": "04772-001",
+                "isMainUnity": true,
+                "latitude": -23.7000503,
+                "longitude": -46.7179442
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "http://www.kitepointsp.com.br/",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 6,
+        "name": "Jardim Botanico",
+        "type": "NATURE",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 7,
+        "name": "Zoológico de São Paulo",
+        "type": "NATURE",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 8,
+        "name": "Pico do Jaraguá",
+        "type": "NATURE",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 9,
+        "name": "Parque Ibirapuera",
+        "type": "NATURE",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 10,
+        "name": "Parque Villa-Lobos",
+        "type": "NATURE",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    }
+]

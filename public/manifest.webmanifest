@@ -1,0 +1,17 @@
+{
+  "name": "Busca Sampa",
+  "short_name": "BuscaSampa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2f3035",
+  "theme_color": "#2f3035",
+  "description": "Recomendações de lugares em São Paulo",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

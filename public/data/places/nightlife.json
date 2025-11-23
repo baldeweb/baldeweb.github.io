@@ -1,0 +1,515 @@
+[
+    {
+        "id": 1,
+        "name": "Villa Country",
+        "type": "NIGHTLIFE",
+        "phones": [
+            {
+                "number": "11987240123",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "VILLACOUNTRY_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Recomendo comprar o ingresso de forma antecipada",
+            "Balada sertaneja",
+            "Há opções para comer no local"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Francisco Matarazzo",
+                "number": "774",
+                "city": "São Paulo",
+                "neighborhood": "Água Branca",
+                "postalCode": "05001-000",
+                "isMainUnity": true,
+                "latitude": -23.5276642,
+                "longitude": -46.6729802
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://villacountry.com.br/",
+        "linkInstagram": "https://www.instagram.com/villacountry/",
+        "tags": []
+    },
+    {
+        "id": 2,
+        "name": "Meow Maison",
+        "type": "NIGHTLIFE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "MEOW_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Drinks variados da casa"
+        ],
+        "priceRange": "MEDIUM-UP",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Cunha Gago",
+                "number": "678",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05424-001",
+                "isMainUnity": true,
+                "latitude": -23.5629788,
+                "longitude": -46.6958136
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/meow.maison/",
+        "tags": []
+    },
+    {
+        "id": 3,
+        "name": "AMATA SP",
+        "type": "NIGHTLIFE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "AMATA_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Há opções para comer no local",
+            "Drinks variados da casa"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Cunha Gago",
+                "number": "832",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05421-000",
+                "isMainUnity": true,
+                "latitude": -23.5618107,
+                "longitude": -46.6965818
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/amata.sp/",
+        "tags": []
+    },
+    {
+        "id": 4,
+        "name": "Coffeeshop Club",
+        "type": "NIGHTLIFE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "COFFEESHOP_CLUB_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Há opções para comer no local",
+            "Drinks variados da casa"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Cunha Gago",
+                "number": "599",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05421-001",
+                "isMainUnity": true,
+                "latitude": -23.5638,
+                "longitude": -46.6954934
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/coffeeshop.club/",
+        "tags": []
+    },
+    {
+        "id": 5,
+        "name": "Tokyo 東京",
+        "type": "NIGHTLIFE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "TOKYO_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Há opções para comer no local",
+            "Drinks variados da casa",
+            "Karaokê comum e privado",
+            "Ambiente alternativo"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Major Sertório",
+                "number": "110",
+                "city": "São Paulo",
+                "neighborhood": "República",
+                "postalCode": "01222-000",
+                "isMainUnity": true,
+                "latitude": -23.5453951,
+                "longitude": -46.6476979
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://tokyo011.com.br/qrcode/",
+        "linkInstagram": "https://www.instagram.com/tokyo.sp/",
+        "tags": [
+            "KARAOKE"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Milo Garage",
+        "type": "NIGHTLIFE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "MILO_GARAGE_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Drinks variados da casa",
+            "Ambiente alternativo"
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Pompéia",
+                "number": "1681",
+                "city": "São Paulo",
+                "neighborhood": "Pompeia",
+                "postalCode": "05023-001",
+                "isMainUnity": true,
+                "latitude": -23.5382532,
+                "longitude": -46.6952783
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/milo_garage/",
+        "tags": []
+    },
+    {
+        "id": 7,
+        "name": "Nola Bar",
+        "type": "NIGHTLIFE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "NOLA_BAR_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Ambiente alternativo"
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Mourato Coelho",
+                "number": "Vila Madalena",
+                "city": "São Paulo",
+                "neighborhood": "1156",
+                "postalCode": "05417-002",
+                "isMainUnity": true,
+                "latitude": -23.5578849,
+                "longitude": -46.6940166
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/_nolabar/",
+        "tags": []
+    },
+    {
+        "id": 8,
+        "name": "The History",
+        "type": "NIGHTLIFE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "THEHISTORY_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Gomes de Carvalho",
+                "number": "820",
+                "city": "São Paulo",
+                "neighborhood": "Vila Olímpia",
+                "postalCode": "04547-003",
+                "isMainUnity": true,
+                "latitude": -23.5987215,
+                "longitude": -46.6839456
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/thehistoryoficial/",
+        "tags": []
+    },
+    {
+        "id": 9,
+        "name": "Cineclube Cortina",
+        "type": "NIGHTLIFE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "CHECK_AVAILABILITY_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Necessário checar os eventos no Instagram, pois sempre há variações"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Araújo",
+                "number": "62",
+                "city": "São Paulo",
+                "neighborhood": "República",
+                "postalCode": "01220-020",
+                "isMainUnity": true,
+                "latitude": -23.5444094,
+                "longitude": -46.6470946
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Fcineclubecortina%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn_IkP83kwc1Y3fBB_rfn6NWbFGdidJ3njtUTMx2z0LEl5MitEib1uHcXnpc4_aem_4mIc4gqm8aJyJLOkoYcM_Q&e=AT3W23BijcQ5IMEaq05IZCCnbIqo-l9auIpYJU9c_C4J8ABRFXph-s3JyyPrOxt39l-oGU86_vMMWTAnXovqKKRO15IFEoKI18aLCioQxKiI4imcnw9w9Isb3A",
+        "linkInstagram": "https://www.instagram.com/cineclubecortina/",
+        "tags": []
+    },
+    {
+        "id": 10,
+        "name": "Samba da Rosa",
+        "type": "NIGHTLIFE",
+        "phones": [],
+        "openingHours": {
+            "patternId": "CHECK_AVAILABILITY_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Necessário checar os eventos no Instagram, pois sempre há variações"
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://www.sambadarosa.com.br/link-tree?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnukxE5-yheGafbbbfdviEXbTThpUYfneptVZgXgk8H_VNcd1le-_MHb08ziY_aem_DW968ksmC3MeTO28bNQmBQ",
+        "linkInstagram": "https://www.instagram.com/sambadarosazn/",
+        "tags": []
+    },
+    {
+        "id": 11,
+        "name": "Canto da Ema",
+        "type": "NIGHTLIFE",
+        "phones": [
+            {
+                "number": "1138134708",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "CANTODAEMA_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Forró de Quarta a Domingo"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Brigadeiro Faria Lima",
+                "number": "364",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05426-200",
+                "isMainUnity": true,
+                "latitude": -23.5619315,
+                "longitude": -46.6974379
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "http://www.cantodaema.com.br/",
+        "linkInstagram": "https://www.instagram.com/cantodaema/",
+        "tags": []
+    },
+    {
+        "id": 12,
+        "name": "Baixo Pinheiros Bar",
+        "type": "NIGHTLIFE",
+        "phones": [
+            {
+                "number": "11989723242",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "BAIXOPINHEIROS_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Ás Quintas-feiras acontece o encontro multicultural com o pessoal do Multilingo"
+        ],
+        "priceRange": "LOW-UP",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Guaicuí",
+                "number": "62",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05427-030",
+                "isMainUnity": true,
+                "latitude": -23.5659911,
+                "longitude": -46.698711
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://barbaixopinheiros.com.br/link-na-bio/",
+        "linkInstagram": "https://www.instagram.com/baixopinheirosbar/",
+        "tags": [
+            "KARAOKE"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Tarot Espace",
+        "type": "NIGHTLIFE",
+        "phones": [
+            {
+                "number": "11950821854",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "TAROT_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": false,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Ás Sextas-feiras acontece o encontro multicultural com o pessoal do Multilingo"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Inácio Pereira da Rocha",
+                "number": "109",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05432-010",
+                "isMainUnity": true,
+                "latitude": -23.5592721,
+                "longitude": -46.690552
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://tarot.art.br/?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn_JnFs7m3ugk3y6Bs1Hd7i6tjVq9uWXbnCAarVNwKhj_6WySINKJwE-9scr4_aem_uF0qDrspTqLT8waSpkl0ZQ",
+        "linkInstagram": "https://www.instagram.com/tarot.espace/",
+        "tags": [
+            "KARAOKE"
+        ]
+    }
+]

@@ -1,0 +1,2080 @@
+[
+    {
+        "id": 1,
+        "name": "Tour na Allianz Parque",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "1148006680",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "CHECK_AVAILABILITY_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": true,
+        "notes": [
+            "Tour de visitação do estádio Allianz Parque, do time do Palmeiras",
+            "Necessário acessar o site para mais informações sobre a tour"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Francisco Matarazzo",
+                "number": "200",
+                "city": "São Paulo",
+                "neighborhood": "Água Branca",
+                "postalCode": "05001-200",
+                "isMainUnity": true,
+                "latitude": -23.5276158,
+                "longitude": -46.6810411
+            }
+        ],
+        "linkWebsite": "https://allianzparquetour.com.br/",
+        "linkInstagram": "https://www.instagram.com/allianzparque/",
+        "tags": [
+            "TOUR",
+            "STADIUM"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "CTN (Centro de Tradições Nordestinas)",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "1134889400",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "CTN_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Centro de Tradições Nordestinas, com eventos semanais"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Jacofer",
+                "number": "615",
+                "city": "São Paulo",
+                "neighborhood": "Limão",
+                "postalCode": "02712-070",
+                "isMainUnity": true,
+                "latitude": -23.510215,
+                "longitude": -46.681389
+            }
+        ],
+        "linkMenu": "",
+        "linkInstagram": "https://www.instagram.com/ctnsp/",
+        "tags": [
+            "LIVE_MUSIC"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Memorial da América Latina",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "1138234600",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "FRI_TO_SUN_1017_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Projetado por Oscar Niemeyer, este enorme complexo ao ar livre conta com esculturas e uma galeria de arte",
+            "Costuma ter shows e eventos"
+        ],
+        "priceRange": "FREE",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Mário de Andrade",
+                "number": "664",
+                "city": "São Paulo",
+                "neighborhood": "Barra Funda",
+                "postalCode": "01156-001",
+                "isMainUnity": true,
+                "latitude": -23.5274042,
+                "longitude": -46.6682288
+            }
+        ],
+        "linkWebsite": "http://www.memorial.org.br/",
+        "linkInstagram": "https://www.instagram.com/memorialdaamericalatina/",
+        "tags": []
+    },
+    {
+        "id": 4,
+        "name": "MASP",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "1131495959",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "MASP_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": true,
+        "notes": [
+            "Necessário agendar para realizar a visitação"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Paulista",
+                "number": "1578",
+                "city": "São Paulo",
+                "neighborhood": "Bela Vista",
+                "postalCode": "01310-200",
+                "isMainUnity": true,
+                "latitude": -23.5614091,
+                "longitude": -46.6584568
+            }
+        ],
+        "linkMenu": "",
+        "linkInstagram": "https://www.instagram.com/masp/",
+        "tags": []
+    },
+    {
+        "id": 5,
+        "name": "Museu da Energia",
+        "type": "TOURIST_SPOT",
+        "phones": [],
+        "openingHours": {
+            "patternId": "MUSEU_ENERGIA_DAYTIME",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": false,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "FREE",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Cleveland",
+                "number": "601",
+                "city": "São Paulo",
+                "neighborhood": "Campos Elíseos",
+                "postalCode": "01218-000",
+                "isMainUnity": true,
+                "latitude": -23.5305763,
+                "longitude": -46.645939
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://www.energiaesaneamento.org.br/",
+        "linkInstagram": "https://www.instagram.com/museudaenergia/"
+    },
+    {
+        "id": 6,
+        "name": "Museu da Imigração de São Paulo",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "1126921866",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "MUSEU_IMIGRACAO_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Visconde de Parnaíba",
+                "number": "1316",
+                "city": "São Paulo",
+                "neighborhood": "Mooca",
+                "postalCode": "03164-300",
+                "isMainUnity": true,
+                "latitude": -23.5491477,
+                "longitude": -46.6155896
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "http://museudaimigracao.org.br/",
+        "linkInstagram": "https://www.instagram.com/museudaimigracao/"
+    },
+    {
+        "id": 7,
+        "name": "Parque da Ciência Butantan",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "1126279300",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "BUTANTA_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "A entrada no Parque da Ciência Butantan é gratuita",
+            "Para visitar os museus Biológico, da Vacina, de Microbiologia Professor Isaias Raw e Histórico - Espaço Terra Firme é necessário comprar o ingresso em nossa bilheteria, de forma presencial, e apresentá-lo na entrada de cada atração.",
+            "A bilheteria fica na loja do Parque da Ciência, localizada atrás do Museu Biológico.",
+            "O ingresso pode ser comprado até as 16h. Os museus estão abertos à visitação até 16h45."
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Vital Brasil",
+                "number": "1500",
+                "city": "São Paulo",
+                "neighborhood": "Butantã",
+                "postalCode": "05503-900",
+                "isMainUnity": true,
+                "latitude": -23.5683641,
+                "longitude": -46.7198791
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://parquedaciencia.butantan.gov.br/",
+        "linkInstagram": "https://www.instagram.com/butantanoficial/",
+        "tags": []
+    },
+    {
+        "id": 8,
+        "name": "Museu Biológico",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 9,
+        "name": "Museu da Polícia Civil",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 10,
+        "name": "Museu de Arqueologia e Etnologia",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 11,
+        "name": "Museu Histórico do Instituto Butantã",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 12,
+        "name": "Praça do Relógio da USP",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 13,
+        "name": "Basílica de Nossa Senhora do Rosário (Arautos do Evangelho)",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 14,
+        "name": "Sambódromo Anhembi",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 15,
+        "name": "Caixa Cultural",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 16,
+        "name": "Catedral da Sé",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 17,
+        "name": "Centro Cultural Banco do Brasil",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 18,
+        "name": "Edifício Copan",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 19,
+        "name": "MAS SP (Museu da Arte Sacra de SP)",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 20,
+        "name": "Mercado Municipal Paulistano",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 21,
+        "name": "Mosteiro São Bento",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 22,
+        "name": "Museu Catavento",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 23,
+        "name": "Museu da Lingua Portuguesa",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 24,
+        "name": "Museu da Polícia Militar de São Paulo",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 25,
+        "name": "Museu das Favelas",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 26,
+        "name": "Pateo Collegio",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 27,
+        "name": "Pinacoteca de São Paulo",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 28,
+        "name": "Praça da Sé",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 29,
+        "name": "Rua 25 de Março",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 30,
+        "name": "Sala São Paulo",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 31,
+        "name": "Teatro Municipal de São Paulo",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 32,
+        "name": "Autódromo de Interlagos",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 33,
+        "name": "Teatro Santander",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 34,
+        "name": "Neoquímica Arena (Itaquerão)",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 35,
+        "name": "MCB - Museu da Casa Brasileira",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 36,
+        "name": "MIS - Museu da Imagem e do Som",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 37,
+        "name": "Paróquia Nossa Senhora do Brasil",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 38,
+        "name": "ToyShow",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 39,
+        "name": "Mercado Municipal da Lapa",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 40,
+        "name": "Museu Histórico da Imigração Japonesa",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 41,
+        "name": "MorumBis",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 42,
+        "name": "Monumento às Bandeiras",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 43,
+        "name": "Museu Afro Brasil",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 44,
+        "name": "Obelisco do Ibirapuera",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 45,
+        "name": "Roda Gigante Roda Rico",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 46,
+        "name": "Instituto Tomie Ohtake",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 47,
+        "name": "Shopping Eldorado",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 48,
+        "name": "Roller Jam",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 49,
+        "name": "Arena Pixel",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 50,
+        "name": "Cemitério da Consolação",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 51,
+        "name": "Centro Cultural de São Paulo",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 52,
+        "name": "Feira de Arte - Praça Benedito Calixto",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 53,
+        "name": "Feira Boliviana Kantuta",
+        "type": "TOURIST_SPOT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    }
+]

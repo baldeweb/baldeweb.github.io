@@ -1,0 +1,448 @@
+[
+  {
+    "id": "ALWAYS_OPEN",
+    "description": "Aberto 24h, todos os dias.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "00:00", "close": "23:59" }
+    ]
+  },
+  {
+    "id": "CHECK_AVAILABILITY_DAYTIME",
+    "description": "Horários do Samba da Rosa.",
+    "periods": [
+      { "days": ["CHECK_AVAILABILITY"] }
+    ]
+  },
+  {
+    "id": "EVERYDAY_LUNCH_DINNER",
+    "description": "Abre todos os dias, com horários de almoço e jantar.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "12:00", "close": "15:00" },
+      { "days": ["EVERYDAY"], "open": "18:00", "close": "23:00" }
+    ]
+  },
+  {
+    "id": "FRI_TO_SUN_DAYTIME",
+    "description": "Abre de sexta a domingo, com horários diurnos.",
+    "periods": [
+      { "days": ["FRIDAY"], "open": "10:00", "close": "15:00" },
+      { "days": ["SATURDAY", "SUNDAY"], "open": "10:00", "close": "17:00" }
+    ]
+  },
+  {
+    "id": "FRI_TO_SUN_1017_DAYTIME",
+    "description": "Horários de Terça a Domingo das 10h as 17h.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"], "open": "10:00", "close": "17:00" }
+    ]
+  },
+  {
+    "id": "MON_TO_SAT_LUNCH_DINNER",
+    "description": "Abre de segunda a sábado, com horários de almoço e jantar.",
+    "periods": [
+      { "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "12:00", "close": "15:00" },
+      { "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "18:30", "close": "23:00" }
+    ]
+  },
+  {
+    "id": "CHO_SUN_GAL_BI_DAYTIME",
+    "description": "Horários do restaurante Cho Sun Gal Bi.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY"], "open": "12:00", "close": "14:30" },
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY"], "open": "18:00", "close": "22:00" },
+      { "days": ["FRIDAY"], "open": "12:00", "close": "15:00" },
+      { "days": ["FRIDAY"], "open": "18:00", "close": "23:00" },
+      { "days": ["SATURDAY"], "open": "12:00", "close": "23:00" },
+      { "days": ["SUNDAY", "HOLIDAY"], "open": "12:00", "close": "20:00" }
+    ]
+  },
+  {
+    "id": "QUINTAL_PARAENSE_DAYTIME",
+    "description": "Horários do restaurante Quintal Paraense.",
+    "periods": [
+      { "days": ["WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "12:00", "close": "22:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "17:00" }
+    ]
+  },
+  {
+    "id": "CARMEN_LA_LOCA_DAYTIME",
+    "description": "Horários do restaurante Carmen La Loca.",
+    "periods": [
+      { "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "12:00", "close": "23:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "16:00" }
+    ]
+  },
+  {
+    "id": "CASA_TURCA_DAYTIME",
+    "description": "Horários do restaurante Casa Turca.",
+    "periods": [
+      { "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "SUNDAY"], "open": "11:00", "close": "22:00" },
+      { "days": ["FRIDAY", "SATURDAY"], "open": "11:00", "close": "23:00" }
+    ]
+  },
+  {
+    "id": "JUI_RESTAURANT_DAYTIME",
+    "description": "Horários do restaurante Jui.",
+    "periods": [
+      { "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"], "open": "11:30", "close": "14:30" }
+    ]
+  },
+  {
+    "id": "MANISH_DAYTIME",
+    "description": "Horários do restaurante Manish.",
+    "periods": [
+      { "days": ["MONDAY"], "open": "11:40", "close": "15:00" },
+      { "days": ["MONDAY"], "open": "19:00", "close": "22:00" },
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"], "open": "11:40", "close": "15:00" },
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"], "open": "19:00", "close": "23:00" },
+      { "days": ["SATURDAY", "SUNDAY"], "open": "12:00", "close": "23:00" }
+    ]
+  },
+  {
+    "id": "TANDOOR_DAYTIME",
+    "description": "Horários do restaurante Tandoor.",
+    "periods": [
+      { "days": ["MONDAY"], "open": "12:00", "close": "15:00" },
+      { "days": ["MONDAY"], "open": "19:00", "close": "22:00" },
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "12:00", "close": "15:00" },
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "19:00", "close": "23:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "16:00" },
+      { "days": ["SUNDAY"], "open": "19:00", "close": "23:00" }
+    ]
+  },
+  {
+    "id": "ALLDAY_PATTERN_1_DAYTIME",
+    "description": "Horários dos restaurantes Tandoor, Kouzina, Biyou'Z.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "12:00", "close": "23:00" }
+    ]
+  },
+  {
+    "id": "EAT_ASIA_HELLOKITTY_DAYTIME",
+    "description": "Horários do restaurante Eat Asia Thomaz Gonzaga.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "11:00", "close": "19:00" }
+    ]
+  },
+  {
+    "id": "EAT_ASIA_2D_DAYTIME",
+    "description": "Horários do restaurante Eat Asia Thomaz Gonzaga.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "12:00", "close": "20:00" }
+    ]
+  },
+  {
+    "id": "FILIPINAS_ORIENTAL_DAYTIME",
+    "description": "Horários do restaurante Filipinas Oriental.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "11:00", "close": "19:00" }
+    ]
+  },
+  {
+    "id": "IZAKAYA_ISSA_DAYTIME",
+    "description": "Horários do restaurante Izakaya Issa.",
+    "periods": [
+      { "days": ["MONDAY", "TUESDAY", "THURSDAY", "FRIDAY"], "open": "11:00", "close": "14:30" },
+      { "days": ["MONDAY", "TUESDAY", "THURSDAY", "FRIDAY"], "open": "11:00", "close": "14:30" },
+      { "days": ["SATURDAY", "SUNDAY"], "open": "11:00", "close": "15:00" },
+      { "days": ["SATURDAY", "SUNDAY"], "open": "18:00", "close": "20:30" }
+    ]
+  },
+  {
+    "id": "BECO_HEXAGONAL_DAYTIME",
+    "description": "Horários do restaurante Beco Hexagonal.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY"], "open": "18:00", "close": "22:00" },
+      { "days": ["FRIDAY", "SATURDAY"], "open": "18:00", "close": "23:00" },
+      { "days": ["SUNDAY"], "open": "13:00", "close": "20:00" }
+    ]
+  },
+  {
+    "id": "OBURGUER_DAYTIME",
+    "description": "Horários do restaurante O Burguer.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY"], "open": "17:00", "close": "23:00" },
+      { "days": ["FRIDAY"], "open": "17:00", "close": "00:00" },
+      { "days": ["SATURDAY"], "open": "12:00", "close": "00:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "23:00" }
+    ]
+  },
+  {
+    "id": "CADILLACBBQ_DAYTIME",
+    "description": "Horários do restaurante Cadillac BBQ.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY"], "open": "17:00", "close": "23:00" },
+      { "days": ["FRIDAY"], "open": "17:00", "close": "00:00" },
+      { "days": ["SATURDAY"], "open": "12:00", "close": "00:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "23:00" }
+    ]
+  },
+  {
+    "id": "VASSOURA_QUEBRADA_DAYTIME",
+    "description": "Horários do restaurante Vassoura Quebrada.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY"], "open": "18:00", "close": "22:30" },
+      { "days": ["FRIDAY"], "open": "13:00", "close": "16:00" },
+      { "days": ["FRIDAY"], "open": "18:00", "close": "22:30" },
+      { "days": ["SATURDAY"], "open": "13:00", "close": "22:30" },
+      { "days": ["SUNDAY"], "open": "13:00", "close": "19:00" }
+    ]
+  },
+  {
+    "id": "CONSULADODABAHIA_DAYTIME",
+    "description": "Horários do restaurante Consulado da Bahia.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "12:00", "close": "00:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "22:00" }
+    ]
+  },
+  {
+    "id": "ESCANDINAVO_DAYTIME",
+    "description": "Horários do restaurante O Escandinavo.",
+    "periods": [
+      { "days": ["WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "12:00", "close": "16:00" },
+      { "days": ["WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "19:00", "close": "22:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "16:00" }
+    ]
+  },
+  {
+    "id": "GRINDHOUSE_BRASERITO_DAYTIME",
+    "description": "Horários do restaurante Grindhouse Braserito.",
+    "periods": [
+      { "days": ["WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "12:00", "close": "16:00" },
+      { "days": ["WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "19:00", "close": "22:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "16:00" }
+    ]
+  },
+  {
+    "id": "RINCONCITO_PERUANO_DAYTIME",
+    "description": "Horários do restaurante Rinconcito Peruano.",
+    "periods": [
+      { "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY"], "open": "12:00", "close": "15:00" },
+      { "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY"], "open": "18:00", "close": "22:00" },
+      { "days": ["FRIDAY", "SATURDAY"], "open": "12:00", "close": "23:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "18:00" }
+    ]
+  },
+  {
+    "id": "BIAHOI_DAYTIME",
+    "description": "Horários do restaurante Rinconcito Peruano.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"], "open": "12:00", "close": "15:00" },
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"], "open": "19:00", "close": "23:00" },
+      { "days": ["SATURDAY"], "open": "12:00", "close": "17:00" },
+      { "days": ["SATURDAY"], "open": "19:00", "close": "23:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "17:00" },
+      { "days": ["SUNDAY"], "open": "19:00", "close": "22:00" }
+    ]
+  },
+  {
+    "id": "SUSHI_HIROSHI_DAYTIME",
+    "description": "Horários do restaurante Sushi Hiroshi.",
+    "periods": [
+      { "days": ["MONDAY", "TUESDAY", "THURSDAY", "FRIDAY"], "open": "11:30", "close": "14:30" },
+      { "days": ["MONDAY", "TUESDAY", "THURSDAY", "FRIDAY"], "open": "18:30", "close": "22:30" },
+      { "days": ["SATURDAY", "SUNDAY"], "open": "12:00", "close": "15:00" },
+      { "days": ["SATURDAY", "SUNDAY"], "open": "18:30", "close": "22:30" }
+    ]
+  },
+  {
+    "id": "MAMAAFRICA_DAYTIME",
+    "description": "Horários do restaurante Mama Africa Labonne Bouffe.",
+    "periods": [
+      { "days": ["TUESDAY", "THURSDAY", "FRIDAY", "SATURDAY"], "open": "12:00", "close": "22:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "17:00" }
+    ]
+  },
+  {
+    "id": "PARQUE_AGUA_BRANCA_DAYTIME",
+    "description": "Horários do Parque da Água Branca.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "06:00", "close": "20:00" }
+    ]
+  },
+  {
+    "id": "PRACA_PORDOSOL_DAYTIME",
+    "description": "Horários da Praça do Por do Sol.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "06:00", "close": "20:00" }
+    ]
+  },
+  {
+    "id": "PARQUE_AUGUSTA_DAYTIME",
+    "description": "Horários do Parque Augusta.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "05:00", "close": "21:00" }
+    ]
+  },
+  {
+    "id": "PRAIADOSOL_DAYTIME",
+    "description": "Horários do Parque Praia do Sol.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "07:00", "close": "19:00" }
+    ]
+  },
+  {
+    "id": "KOFICO_DAYTIME",
+    "description": "Horários da cafeteria Kofi & Co.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"], "open": "11:00", "close": "17:30" },
+      { "days": ["SATURDAY", "SUNDAY"], "open": "09:00", "close": "17:30" }
+    ]
+  },
+  {
+    "id": "GRIFFINN_DAYTIME",
+    "description": "Horários da cafeteria Griffinn Café e Afins.",
+    "periods": [
+      { "days": ["WEDNESDAY", "THURSDAY", "FRIDAY"], "open": "15:00", "close": "21:00" },
+      { "days": ["SATURDAY"], "open": "13:00", "close": "21:30" },
+      { "days": ["SUNDAY"], "open": "13:00", "close": "18:30" }
+    ]
+  },
+    {
+    "id": "CAFE_FLORESTA_DAYTIME",
+    "description": "Horários do Cafe Floresta.",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "07:00", "close": "21:30" }
+    ]
+  },
+  {
+    "id": "VILLACOUNTRY_DAYTIME",
+    "description": "Horários do Villa Country.",
+    "periods": [
+      { "days": ["THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"], "open": "20:00", "close": "04:00" }
+    ]
+  },
+  {
+    "id": "MEOW_DAYTIME",
+    "description": "Horários da Meow.",
+    "periods": [
+      { "days": ["THURSDAY", "FRIDAY", "SATURDAY"], "open": "20:00", "close": "05:00" }
+    ]
+  },
+  {
+    "id": "AMATA_DAYTIME",
+    "description": "Horários da AMata.",
+    "periods": [
+      { "days": ["THURSDAY", "FRIDAY", "SATURDAY"], "open": "22:00", "close": "05:00" }
+    ]
+  },
+  {
+    "id": "COFFEESHOP_CLUB_DAYTIME",
+    "description": "Horários da Coffeeshop Club.",
+    "periods": [
+      { "days": ["THURSDAY", "FRIDAY", "SATURDAY"], "open": "22:00", "close": "05:00" }
+    ]
+  },
+  {
+    "id": "TOKYO_DAYTIME",
+    "description": "Horários da Tokyo 東京.",
+    "periods": [
+      { "days": ["TUESDAY"], "open": "17:00", "close": "00:00" },
+      { "days": ["WEDNESDAY", "THURSDAY", "FRIDAY"], "open": "17:00", "close": "05:00" },
+      { "days": ["SATURDAY", "MONDAY"], "open": "12:00", "close": "06:00" }
+    ]
+  },
+  {
+    "id": "MILO_GARAGE_DAYTIME",
+    "description": "Horários da Milo Garage.",
+    "periods": [
+      { "days": ["THURSDAY", "FRIDAY", "SATURDAY"], "open": "22:30", "close": "05:00" }
+    ]
+  },
+  {
+    "id": "NOLA_BAR_DAYTIME",
+    "description": "Horários do Nola Bar.",
+    "periods": [
+      { "days": ["THURSDAY", "FRIDAY", "SATURDAY"], "open": "22:30", "close": "05:00" }
+    ]
+  },
+  {
+    "id": "THEHISTORY_DAYTIME",
+    "description": "Horários do The History.",
+    "periods": [
+      { "days": ["FRIDAY", "SATURDAY"], "open": "22:00", "close": "05:00" }
+    ]
+  },
+  {
+    "id": "CINECLUB_CORTINA_DAYTIME",
+    "description": "Horários do Cineclube Cortina.",
+    "periods": [
+      { "days": ["CHECK_AVAILABILITY"] }
+    ]
+  },
+  {
+    "id": "CANTODAEMA_DAYTIME",
+    "description": "Horários do Canto da Ema.",
+    "periods": [
+      { "days": ["WEDNESDAY", "THURSDAY"], "open": "20:30", "close": "01:00" },
+      { "days": ["FRIDAY", "SATURDAY"], "open": "22:00", "close": "04:30" },
+      { "days": ["SUNDAY"], "open": "19:00", "close": "00:00" }
+    ]
+  },
+  {
+    "id": "BAIXOPINHEIROS_DAYTIME",
+    "description": "Horários do Baixo Pinheiros Bar.",
+    "periods": [
+      { "days": ["MONDAY"], "open": "17:00", "close": "01:00" },
+      { "days": ["TUESDAY", "WEDNESDAY"], "open": "15:00", "close": "01:00" },
+      { "days": ["THURSDAY", "FRIDAY"], "open": "15:00", "close": "04:00" },
+      { "days": ["SATURDAY"], "open": "12:00", "close": "04:00" },
+      { "days": ["SUNDAY"], "open": "12:00", "close": "01:00" }
+    ]
+  },
+  {
+    "id": "TAROT_DAYTIME",
+    "description": "Horários do Tarot Espace.",
+    "periods": [
+      { "days": ["FRIDAY", "SATURDAY"], "open": "22:00", "close": "04:00" }
+    ]
+  },
+  {
+    "id": "CTN_DAYTIME",
+    "description": "Horários do CTN.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"], "open": "11:00", "close": "16:00" },
+      { "days": ["SATURDAY"], "open": "11:00", "close": "04:00" },
+      { "days": ["SUNDAY"], "open": "11:00", "close": "22:00" }
+    ]
+  },
+  {
+    "id": "MEMORIAL_AMERICALATINA_DAYTIME",
+    "description": "Horários do Memorial da América Latina.",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"], "open": "10:00", "close": "17:00" }
+    ]
+  },
+  {
+    "id": "MASP_DAYTIME",
+    "description": "Horários do MASP",
+    "periods": [
+      { "days": ["TUESDAY"], "open": "10:00", "close": "20:00" },
+      { "days": ["WEDNESDAY", "THURSDAY"], "open": "10:00", "close": "18:00" },
+      { "days": ["FRIDAY"], "open": "10:00", "close": "21:00" },
+      { "days": ["SATURDAY", "SUNDAY"], "open": "10:00", "close": "18:00" }
+    ]
+  },
+  {
+    "id": "MUSEU_ENERGIA_DAYTIME",
+    "description": "Horários do Museu da Energia",
+    "periods": [
+      { "days": ["THURSDAY", "FRIDAY", "SATURDAY"], "open": "10:00", "close": "17:00" }
+    ]
+  },
+  {
+    "id": "MUSEU_IMIGRACAO_DAYTIME",
+    "description": "Horários do Museu da Imigração de SP",
+    "periods": [
+      { "days": ["TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"], "open": "9:00", "close": "17:00" }
+    ]
+  },
+  {
+    "id": "BUTANTA_DAYTIME",
+    "description": "Horários do Butantã",
+    "periods": [
+      { "days": ["EVERYDAY"], "open": "7:00", "close": "17:00" }
+    ]
+  }
+]

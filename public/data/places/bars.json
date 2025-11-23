@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "name": "SubAstor (Bar do Cofre) 🇧🇷",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 2,
+        "name": "Bario Bar 🇧🇷",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 3,
+        "name": "Olivio Bar 🇧🇷",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 4,
+        "name": "Republic English Pub 🇬🇧",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 5,
+        "name": "Waska Restobar Latino",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 6,
+        "name": "Manifesto Bar",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 7,
+        "name": "Bar do Luiz Fernandes",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 8,
+        "name": "Bar dos Arcos",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 9,
+        "name": "Javari StrEat Park",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    },
+    {
+        "id": 10,
+        "name": "Curtiça Bar",
+        "type": "BAR",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isFree": true,
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": []
+    }
+]

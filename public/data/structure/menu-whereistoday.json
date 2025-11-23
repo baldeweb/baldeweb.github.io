@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "isEnabled": true,
+        "title": "Aberto agora",
+        "tags": [
+            "RESTAURANTS",
+            "BAR",
+            "NIGHTLIFE",
+            "COFFEE",
+            "NATURE",
+            "TOURIST_SPOT"
+        ]
+    },
+    {
+        "id": 2,
+        "isEnabled": true,
+        "title": "Gratuitos",
+        "tags": [ "FREE" ]
+    },
+    {
+        "id": 3,
+        "isEnabled": true,
+        "title": "Restaurantes",
+        "tags": [ "RESTAURANTS" ]
+    },
+    {
+        "id": 4,
+        "isEnabled": true,
+        "title": "Bares",
+        "tags": [ "BAR" ]
+    },
+    {
+        "id": 5,
+        "isEnabled": true,
+        "title": "Vida Noturna",
+        "tags": [ "NIGHTLIFE" ]
+    },
+    {
+        "id": 6,
+        "isEnabled": true,
+        "title": "Cafeterias",
+        "tags": [ "COFFEE" ]
+    },
+    {
+        "id": 7,
+        "isEnabled": true,
+        "title": "Natureza",
+        "tags": [ "NATURE" ]
+    },
+    {
+        "id": 8,
+        "isEnabled": true,
+        "title": "Pontos Turísticos",
+        "tags": [ "TOURIST_SPOT" ]
+    }
+]

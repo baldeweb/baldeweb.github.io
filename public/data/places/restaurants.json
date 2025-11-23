@@ -1,0 +1,2054 @@
+[
+    {
+        "id": 1,
+        "name": "Barskiy Dom",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11942409445",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "EVERYDAY_LUNCH_DINNER",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": true,
+        "notes": [
+            "🇷🇺 Culinária Russa",
+            "Necessário agendamento",
+            "Dança típica toda terça-feira",
+            "Café da manhã Russo 1x ao mês (verificar no Instagram as datas)"
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Apeninos",
+                "number": "681",
+                "city": "São Paulo",
+                "neighborhood": "Aclimação",
+                "postalCode": "01533-000",
+                "isMainUnity": true
+            }
+        ],
+        "linkMenu": "http://www.barskiydom.com.br/",
+        "linkWebsite": "http://www.barskiydom.com.br/",
+        "linkInstagram": "https://www.instagram.com/restauranterusso/",
+        "tags": [
+            "RUSSIAN"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sabores de Mi Tierra",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11955898944",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "FRI_TO_SUN_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇧🇴 Culinária Boliviana"
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Calçada das Azaléias",
+                "number": "15",
+                "city": "Barueri",
+                "neighborhood": "Centro",
+                "postalCode": "06453-035",
+                "isMainUnity": true
+            }
+        ],
+        "linkMenu": "https://www.instagram.com/stories/highlights/18207619627198895/",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/saboresdemitierra_22/",
+        "tags": [
+            "BOLIVIAN"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Komah Restaurante",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11933386182",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "MON_TO_SAT_LUNCH_DINNER",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇰🇷 Culinária Sul-Coreana"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Cônego Vicente Miguel Marino",
+                "number": "378",
+                "city": "São Paulo",
+                "neighborhood": "Barra Funda",
+                "postalCode": "01135-020",
+                "isMainUnity": true
+            }
+        ],
+        "linkMenu": "https://komahdelivery.com.br/",
+        "linkWebsite": "https://komahrestaurante.com.br/",
+        "linkInstagram": "https://www.instagram.com/komahrestaurante/",
+        "tags": [
+            "KOREAN"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Méqui 1000",
+        "type": "RESTAURANT",
+        "phones": [],
+        "openingHours": {
+            "patternId": "ALWAYS_OPEN",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Unidade 1000 do McDonald's no Brasil",
+            "Costuma ter decorações na fachada do estabelecimento"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Av. Paulista",
+                "number": "1811",
+                "city": "São Paulo",
+                "neighborhood": "Bela Vista",
+                "postalCode": "01311-200",
+                "isMainUnity": true
+            }
+        ],
+        "linkMenu": "https://www.mcdonalds.com.br/cardapio",
+        "linkWebsite": "https://www.mcdonalds.com.br/",
+        "linkInstagram": "",
+        "tags": [
+            "FAST-FOOD",
+            "AMERICAN"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Cho Sun Gal Bi",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1126733337",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "CHO_SUN_GAL_BI_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇰🇷 Culinária Sul-Coreana",
+            "Churrasco Coreano"
+        ],
+        "priceRange": "MEDIUM-UP",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "R. da Glória",
+                "number": "663",
+                "city": "São Paulo",
+                "neighborhood": "Liberdade",
+                "postalCode": "01510-001",
+                "isMainUnity": true
+            },
+            {
+                "id": 2,
+                "street": "R. dos Bandeirantes",
+                "number": "459",
+                "city": "São Paulo",
+                "neighborhood": "Bom Retiro",
+                "postalCode": "01124-010",
+                "isMainUnity": false
+            },
+            {
+                "id": 3,
+                "street": "R. Emília Marengo",
+                "number": "320",
+                "city": "São Paulo",
+                "neighborhood": "Tatuapé",
+                "postalCode": "03336-000",
+                "isMainUnity": false
+            }
+        ],
+        "linkMenu": "https://qrfy.io/p/MvlnlIJsDu",
+        "linkWebsite": "https://churrascariachosungalbi.com.br/",
+        "linkInstagram": "https://www.instagram.com/chosuntatuape/",
+        "tags": [
+            "KOREAN"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Quintal Paraense",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11986181944",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "QUINTAL_PARAENSE_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇧🇷 Culinária Brasileira",
+            "Pratos típicos da região Norte do Brasil, em específico do estado do Pará"
+        ],
+        "priceRange": "LOW-UP",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Horácio Vergueiro Rudge",
+                "number": "535",
+                "city": "São Paulo",
+                "neighborhood": "Casa Verde",
+                "postalCode": "02512-060",
+                "isMainUnity": true
+            }
+        ],
+        "linkMenu": "https://www.instagram.com/stories/highlights/18048424670168633/",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/quintalparaense/",
+        "tags": [
+            "BRAZILIAN"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Fôrno",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11981957207",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "FORNO_SP_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": true,
+        "notes": [
+            "🇮🇹 Culinária Italo-Brasileira",
+            "Jazz ao vivo toda Terça-Feira",
+            "Mix de culinária Italiana com Brasileira"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Cunha Horta",
+                "number": "70",
+                "city": "São Paulo",
+                "neighborhood": "Consolação",
+                "postalCode": "01221-030",
+                "isMainUnity": true
+            }
+        ],
+        "linkMenu": "http://www.fornosp.com.br/menu_qr.pdf",
+        "linkWebsite": "http://www.fornosp.com.br/",
+        "linkInstagram": "https://www.instagram.com/forno_sp/",
+        "tags": [
+            "ITALIAN"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Carmen La Loca",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1135399724",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "CARMEN_LA_LOCA_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇪🇸 Culinária Espanhola",
+            "Ambiente instagramável"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Alexandre Dumas",
+                "number": "1162",
+                "city": "São Paulo",
+                "neighborhood": "Santo Amaro",
+                "postalCode": "04717-002",
+                "isMainUnity": true
+            }
+        ],
+        "linkMenu": "https://shop.fastget.com.br/#/store/carmen-la-loca/4007c816-46a3-11ee-9cc5-029f9b6db48b",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/restaurantecarmenlaloca/",
+        "tags": [
+            "SPANISH"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Casa Turca",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11998431775",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "CASA_TURCA_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇹🇷 Culinária Turca",
+            "Relação Custo x Benefício excelente"
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Alves Pontual",
+                "number": "467",
+                "city": "São Paulo",
+                "neighborhood": "Granja Julieta",
+                "postalCode": "04722-000",
+                "isMainUnity": true
+            }
+        ],
+        "linkMenu": "https://www.casaturca.com.br/menus",
+        "linkWebsite": "https://www.casaturca.com.br/",
+        "linkInstagram": "https://www.instagram.com/casaturcasp/",
+        "tags": [
+            "TURKISH"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Jui Restaurante",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1121931086",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "JUI_RESTAURANT_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": false,
+        "shouldSchedule": false,
+        "notes": [
+            "Culinária Asiática",
+            "Refrigerante de gengibre feito na casa"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Paul Valery",
+                "number": "104",
+                "city": "São Paulo",
+                "neighborhood": "Chácara Santo Antônio",
+                "postalCode": "04719-050",
+                "isMainUnity": true
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/juirestaurante/",
+        "tags": [
+            "ASIAN"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Manish",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1130851658",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "MANISH_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇱🇧 Culinária Libanesa"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Horácio Lafer",
+                "number": "491",
+                "city": "São Paulo",
+                "neighborhood": "Itaim Bibi",
+                "postalCode": "04538-082",
+                "isMainUnity": true,
+                "latitude": -23.5881179,
+                "longitude": -46.685548
+            }
+        ],
+        "linkMenu": "https://a9afa647-436a-4f08-adf7-f711dedd44b8.filesusr.com/ugd/f568e5_84a975402bef421a8db10667bd39455c.pdf",
+        "linkWebsite": "https://palomafaizi.wixsite.com/manish",
+        "linkInstagram": "https://www.instagram.com/manishrestaurante?igsh=ODU1OXZ1aThscHFv",
+        "tags": [],
+        "foodStyle": ["LEBANESE"]
+    },
+    {
+        "id": 12,
+        "name": "Tandoor",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1138859470",
+                "isWhatsApp": false
+            },
+            {
+                "number": "1130524380",
+                "isWhatsApp": false
+            },
+            {
+                "number": "11946344451",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "ALLDAY_PATTERN_1_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇮🇳 Culinária Indiana"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Mário Amaral",
+                "number": "559",
+                "city": "São Paulo",
+                "neighborhood": "Paraíso",
+                "postalCode": "04002-020",
+                "isMainUnity": true,
+                "latitude": -23.5748908,
+                "longitude": -46.6498381
+            }
+        ],
+        "linkMenu": "https://www.tandoor.com.br/cardapio/",
+        "linkWebsite": "https://www.tandoor.com.br/",
+        "linkInstagram": "https://www.instagram.com/tandoorsp/",
+        "tags": [
+            "PET_FRIENDLY"
+        ],
+        "foodStyle": ["INDIAN"]
+    },
+    {
+        "id": 13,
+        "name": "Thaithai Brasil",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1123072503",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "THAITAI_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇹🇭 Culinária Tailandêsa"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Haddock Lobo",
+                "number": "935",
+                "city": "São Paulo",
+                "neighborhood": "Jardim Paulista",
+                "postalCode": "01414-001",
+                "isMainUnity": true,
+                "latitude": -23.5602493,
+                "longitude": -46.6664732
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://www.thaitaibrasil.com.br/",
+        "linkInstagram": "https://www.instagram.com/thaitaibrasil/",
+        "tags": [
+            "AMBIANCE"
+        ],
+        "foodStyle": ["THAI"]
+    },
+    {
+        "id": 14,
+        "name": "Kouzina",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1129350888",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "ALLDAY_PATTERN_1_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇬🇷 Culinária Grega"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Peixoto Gomide",
+                "number": "1710",
+                "city": "São Paulo",
+                "neighborhood": "Jardim Paulista",
+                "postalCode": "01409-002",
+                "isMainUnity": true,
+                "latitude": -23.5665128,
+                "longitude": -46.6656825
+            }
+        ],
+        "linkMenu": "https://ideaecia.wixsite.com/cardapiokouzina?fbclid=PAZXh0bgNhZW0CMTEAAad2PW9qGImG-dEDTOVWO80A46y5EFLDG1uPa7qpsuVuC1x6jljB1m_O3hb5pg_aem_48Zo-afbSKvwJ-pK42mA8Q",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/kouzinamyk/",
+        "tags": [
+            "PET_FRIENDLY"
+        ],
+        "foodStyle": ["GREEK"]
+    },
+    {
+        "id": 15,
+        "name": "Eat Asia Thomaz Gonzaga",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11943243830",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "EAT_ASIA_HELLOKITTY_DAYTIME",
+            "customOverrides": [
+                { "days": ["SATURDAY"], "open": "11:00", "close": "20:00" }
+            ]
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇯🇵 Culinária Japonesa",
+            "Temático Hello Kitty"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Thomaz Gonzaga",
+                "number": "61",
+                "city": "São Paulo",
+                "neighborhood": "Liberdade",
+                "postalCode": "01506-020",
+                "isMainUnity": true,
+                "latitude": -23.5576784,
+                "longitude": -46.6405665
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://eatasia.com.br/",
+        "linkInstagram": "https://www.instagram.com/eatasiabr/",
+        "tags": [
+            "THEMED"
+        ],
+        "foodStyle": ["JAPANESE"]
+    },
+    {
+        "id": 16,
+        "name": "Eat Asia 2D",
+        "type": "RESTAURANT",
+        "phones": [],
+        "openingHours": {
+            "patternId": "EAT_ASIA_2D_DAYTIME",
+            "customOverrides": [
+                { "days": ["SATURDAY", "SUNDAY"], "open": "08:00", "close": "20:00" }
+            ]
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇯🇵 Culinária Japonesa",
+            "Temático Hello Kitty"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Américo de Campos",
+                "number": "118",
+                "city": "São Paulo",
+                "neighborhood": "Liberdade",
+                "postalCode": "01506-010",
+                "isMainUnity": true,
+                "latitude": -23.5576784,
+                "longitude": -46.6405665
+            }
+        ],
+        "linkMenu": "https://www.instagram.com/stories/highlights/18123493756379887/",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/eatasia2d/",
+        "tags": [
+            "THEMED"
+        ],
+        "foodStyle": ["JAPANESE"]
+    },
+    {
+        "id": 17,
+        "name": "Filipinas Oriental",
+        "type": "RESTAURANT",
+        "phones": [],
+        "openingHours": {
+            "patternId": "FILIPINAS_ORIENTAL_DAYTIME",
+            "customOverrides": [
+                { "days": ["SATURDAY", "SUNDAY"], "open": "11:00", "close": "22:00" }
+            ]
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇵🇭 Culinária Filipina",
+            "🇲🇾 Culinária Malásio"
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Barão de Iguape",
+                "number": "25",
+                "city": "São Paulo",
+                "neighborhood": "Liberdade",
+                "postalCode": "01502-001",
+                "isMainUnity": true,
+                "latitude": -23.5582513,
+                "longitude": -46.6392504
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/filipinasoriental/",
+        "tags": [],
+        "foodStyle": ["FILIPINO", "MALAYSIAN"]
+    },
+    {
+        "id": 18,
+        "name": "Izakaya Issa",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1132088819.",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "IZAKAYA_ISSA_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇯🇵 Culinária Japonesa",
+            "Padrão Izakaya raíz",
+            "Você come sentado no tatame",
+            "Rápida lotação, necessário chegar cedo"
+        ],
+        "priceRange": "LOW-UP",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Barão de Iguape",
+                "number": "89",
+                "city": "São Paulo",
+                "neighborhood": "Liberdade",
+                "postalCode": "01502-001",
+                "isMainUnity": true,
+                "latitude": -23.5582051,
+                "longitude": -46.638668
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/izakayaissa",
+        "tags": [],
+        "foodStyle": ["JAPANESE"]
+    },
+    {
+        "id": 19,
+        "name": "Amigo do Rei (Iraniano/Persa)",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11981948190",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": true,
+        "notes": [
+            "🇮🇷 Culinária Iraniana/Persa",
+            "Cozinha familiar",
+            "Necessário agendar, a casa possui apenas 8 lugares"
+        ],
+        "priceRange": "HIGH",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "das Orquídeas",
+                "number": "612",
+                "city": "São Paulo",
+                "neighborhood": "Mirandópolis",
+                "postalCode": "04050-000",
+                "isMainUnity": true,
+                "latitude": -23.6050701,
+                "longitude": -46.6470145
+            }
+        ],
+        "linkMenu": "https://www.amigodorei.com.br/jantarpersa.html",
+        "linkWebsite": "http://www.amigodorei.com.br/",
+        "linkInstagram": "https://www.instagram.com/amigo_do_rei/",
+        "tags": ["AMBIANCE", "EXPERIENCE"],
+        "foodStyle": ["IRANIAN"]
+    },
+    {
+        "id": 20,
+        "name": "Beco Hexagonal",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1126672397",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "BECO_HEXAGONAL_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": true,
+        "notes": [
+            "Temático Idade Média"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Pavão",
+                "number": "577",
+                "city": "São Paulo",
+                "neighborhood": "Moema",
+                "postalCode": "04516-012",
+                "isMainUnity": true,
+                "latitude": -23.6050411,
+                "longitude": -46.6724019
+            },
+            {
+                "id": 2,
+                "street": "Kennedy",
+                "number": "700",
+                "city": "São Bernardo do Campo",
+                "neighborhood": "Jardim do Mar",
+                "postalCode": "09726-253",
+                "isMainUnity": false,
+                "latitude": -23.6835165,
+                "longitude": -46.5599193
+            }
+        ],
+        "linkMenu": "https://reservation-widget.tagme.com.br/group/64c7c03ce5f5b30053b0964c?fbclid=PAZXh0bgNhZW0CMTEAAafs3RM0GsE3FpWb769dj93NFOl80iGjrmy8-Gi80viUhXiMP7atY5_u5WsmPQ_aem_FIEz98tK1xlwnvt7q_Klzg",
+        "linkWebsite": "",
+        "linkInstagram": "https://www.instagram.com/becohexagonal/",
+        "tags": ["THEMED"],
+        "foodStyle": ["HAMBURGUER"]
+    },
+    {
+        "id": 21,
+        "name": "'O' Burguer",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11964896612",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "OBURGUER_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Hamburgueria",
+            "Gastronomia Molecular",
+            "Temático"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Moaci",
+                "number": "806",
+                "city": "São Paulo",
+                "neighborhood": "Moema",
+                "postalCode": "04083-002",
+                "isMainUnity": true,
+                "latitude": -23.6137157,
+                "longitude": -46.6638627
+            }
+        ],
+        "linkMenu": "https://o-burguer-1.goomer.app/menu#1564309",
+        "linkWebsite": "http://www.oburguer.com.br/",
+        "linkInstagram": "https://www.instagram.com/oburguer/",
+        "tags": [],
+        "foodStyle": ["HAMBURGUER", "THEMED", "MOLECULAR_GASTRONOMY"]
+    },
+    {
+        "id": 22,
+        "name": "Cadillac BBQ",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1123090484",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "CADILLACBBQ_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇺🇸 Culinária Americana",
+            "Churrasco BBQ"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Borges de Figueiredo",
+                "number": "60",
+                "city": "São Paulo",
+                "neighborhood": "Mooca",
+                "postalCode": "03110-010",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "https://drive.google.com/drive/folders/1RGLkBk6MEn7AfvUvuylo-AVwdsguCSsK",
+        "linkWebsite": "https://bio.site/cadillacbbqoficial?fbclid=PAZXh0bgNhZW0CMTEAAad2ntQGavKZcr98qEbAsS8se6wmZXgYwe-xC-pcu-8r2l8r4dGnlbO9uvjdlg_aem_y2K_VX92yiwYOHOovmC-VA",
+        "linkInstagram": "https://www.instagram.com/cadillacbbq",
+        "tags": [
+            "THEMED"
+        ],
+        "foodStyle": ["AMERICAN"]
+    },
+    {
+        "id": 23,
+        "name": "Vassoura Quebrada",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11990276568",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "VASSOURA_QUEBRADA_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "Temático bruxo e mágia"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Desembargador do Vale",
+                "number": "836",
+                "city": "São Paulo",
+                "neighborhood": "Perdizes",
+                "postalCode": "05010-040",
+                "isMainUnity": true,
+                "latitude": -23.5295336,
+                "longitude": -46.6932904
+            },
+            {
+                "id": 2,
+                "street": "das Nações Unidas",
+                "number": "14401",
+                "city": "São Paulo",
+                "neighborhood": "Chácara Santo Antônio",
+                "postalCode": "04794-000",
+                "isMainUnity": false,
+                "latitude": -23.625698,
+                "longitude": -46.7084693
+            },
+            {
+                "id": 3,
+                "street": "Domingo de Morais",
+                "number": "2564",
+                "city": "São Paulo",
+                "neighborhood": "Vila Mariana",
+                "postalCode": "04036-100",
+                "isMainUnity": false,
+                "latitude": -23.5992463,
+                "longitude": -46.6602121
+            }
+        ],
+        "linkMenu": "https://www.dguests.com.br/cardapio/vassouraquebrada",
+        "linkWebsite": "https://www.vassouraquebrada.com.br/",
+        "linkInstagram": "https://www.instagram.com/vassouraquebrada/",
+        "tags": [
+            "THEMED"
+        ],
+        "foodStyle": ["HAMBURGUER"]
+    },
+    {
+        "id": 24,
+        "name": "Consulado da Bahia",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1130853873",
+                "isWhatsApp": false
+            },
+            {
+                "number": "1125943873",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "CONSULADODABAHIA_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇧🇷 Culinária Brasileira",
+            "Culinária Baiana"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "dos Pinheiros",
+                "number": "534",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05422-000",
+                "isMainUnity": true,
+                "latitude": -23.5656587,
+                "longitude": -46.6858098
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "http://www.consuladodabahia.com.br/",
+        "linkInstagram": "https://www.instagram.com/consuladodabahia/",
+        "tags": [],
+        "foodStyle": ["BRAZILIAN"]
+    },
+    {
+        "id": 25,
+        "name": "Escandinavo",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11951444486",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "ESCANDINAVO_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": true,
+        "notes": [
+            "🇸🇪🇳🇴🇫🇮 Culinária Nórdica (Sueca, Norueguesa, Finlandesa)"
+        ],
+        "priceRange": "MEDIUM-UP",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Mourato Coelho",
+                "number": "1365",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05417-012",
+                "isMainUnity": true,
+                "latitude": -23.5564053,
+                "longitude": -46.6952786
+            }
+        ],
+        "linkMenu": "https://escandinavo.com.br/confira-nosso-menu/",
+        "linkWebsite": "https://escandinavo.com.br/",
+        "linkInstagram": "https://www.instagram.com/o.escandinavo/",
+        "tags": [],
+        "foodStyle": ["NORDIC"]
+    },
+    {
+        "id": 26,
+        "name": "Grindhouse Braserito",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "11948846626",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "GRINDHOUSE_BRASERITO_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": true,
+        "notes": [
+            "🇦🇷 Culinária Argentina",
+            "Parrillada"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Lisboa",
+                "number": "346",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05413-000",
+                "isMainUnity": true,
+                "latitude": -23.5609456,
+                "longitude": -46.6810926
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://taplink.cc/grindhouse_braserito?fbclid=PAZXh0bgNhZW0CMTEAAac-0uTD8H5jJSoAu-uk2LimVYm454g5drKIOvNzuJJKb_Kqq8PVDJ0JB7LJ_Q_aem_z20kLUd9naK46yw159V3Lg",
+        "linkInstagram": "https://www.instagram.com/grindhouse_braserito/",
+        "tags": [],
+        "foodStyle": ["ARGENTINE"]
+    },
+    {
+        "id": 27,
+        "name": "Rinconcito Peruano",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1130620093",
+                "isWhatsApp": false
+            },
+            {
+                "number": "1132215621",
+                "isWhatsApp": false
+            },
+            {
+                "number": "1120970986",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "RINCONCITO_PERUANO_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇵🇪 Culinária Peruana",
+            "Rede de restaurantes de comida peruana com ambiente temático"
+        ],
+        "priceRange": "LOW-UP",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "dos Pinheiros",
+                "number": "832",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05422-001",
+                "isMainUnity": true,
+                "latitude": -23.5666418,
+                "longitude": -46.6885807
+            },
+            {
+                "id": 2,
+                "street": "Vieira de Carvalho",
+                "number": "86",
+                "city": "São Paulo",
+                "neighborhood": "República",
+                "postalCode": "01210-000",
+                "isMainUnity": false,
+                "latitude": -23.5441254,
+                "longitude": -46.6455858
+            },
+            {
+                "id": 3,
+                "street": "Serra de Japi",
+                "number": "696",
+                "city": "São Paulo",
+                "neighborhood": "Tatuapé",
+                "postalCode": "03309-000",
+                "isMainUnity": false,
+                "latitude": -23.5452997,
+                "longitude": -46.5716981
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "https://www.rinconcitoperuano.com.br/",
+        "linkInstagram": "https://www.instagram.com/rinconcitoperuano/",
+        "tags": ["THEMED"],
+        "foodStyle": ["PERUVIAN"]
+    },
+    {
+        "id": 28,
+        "name": "Bia Hoi SP",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1131594897",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "BIAHOI_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇻🇳 Culinária Vietnamita"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Rego Freitas",
+                "number": "428",
+                "city": "São Paulo",
+                "neighborhood": "República",
+                "postalCode": "01220-010",
+                "isMainUnity": true,
+                "latitude": -23.5456593,
+                "longitude": -46.6493192
+            }
+        ],
+        "linkMenu": "https://biahoi.com.br/menu.php",
+        "linkWebsite": "https://biahoi.com.br/",
+        "linkInstagram": "https://www.instagram.com/biahoisp/",
+        "tags": [],
+        "foodStyle": ["VIETNAMESE"]
+    },
+    {
+        "id": 29,
+        "name": "Biyou'Z",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1132216806",
+                "isWhatsApp": false
+            },
+            {
+                "number": "1123391220",
+                "isWhatsApp": false
+            }
+        ],
+        "openingHours": {
+            "patternId": "ALLDAY_PATTERN_1_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🌍 Culinária Africana"
+        ],
+        "priceRange": "LOW",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Barão de Limeira",
+                "number": "19",
+                "city": "São Paulo",
+                "neighborhood": "República",
+                "postalCode": "01202-001",
+                "isMainUnity": true,
+                "latitude": -23.5450099,
+                "longitude": -46.6663489
+            },
+            {
+                "id": 2,
+                "street": "Fernando de Albuquerque",
+                "number": "95",
+                "city": "São Paulo",
+                "neighborhood": "Consolação",
+                "postalCode": "01309-030",
+                "isMainUnity": false,
+                "latitude": -23.5544135,
+                "longitude": -46.660169
+            }
+        ],
+        "linkMenu": "https://www.biyouzrestauranteafricano.com.br/pratos-quentes",
+        "linkWebsite": "https://biyouzgastronomiafricana.com.br/",
+        "linkInstagram": "https://www.instagram.com/biyouzgastronomiaafricana/",
+        "tags": [],
+        "foodStyle": ["AFRICAN"]
+    },
+    {
+        "id": 30,
+        "name": "Sushi Hiroshi",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1129787128",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "SUSHI_HIROSHI_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": true,
+        "notes": [
+            "🇯🇵 Culinária Japonesa",
+            "Experiência gastronômica"
+        ],
+        "priceRange": "HIGH",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Capitão Manuel Novaes",
+                "number": "189",
+                "city": "São Paulo",
+                "neighborhood": "Santana",
+                "postalCode": "02017-030",
+                "isMainUnity": true,
+                "latitude": -23.5025572,
+                "longitude": -46.6416551
+            }
+        ],
+        "linkMenu": "http://www.sushihiroshisp.com.br/cardapio-sushi-hiroshi.html",
+        "linkWebsite": "http://www.sushihiroshisp.com.br/index.html",
+        "linkInstagram": "https://www.instagram.com/sushihiroshioficial/",
+        "tags": ["EXPERIENCE"],
+        "foodStyle": ["JAPANESE"]
+    },
+    {
+        "id": 31,
+        "name": "Mama Africa La Bonne Bouffe",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "1135827438",
+                "isWhatsApp": false
+            },
+            {
+                "number": "11970474949",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "MAMAAFRICA_DAYTIME",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🌍 Culinária Africana"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "Cantagalo",
+                "number": "230",
+                "city": "São Paulo",
+                "neighborhood": "Tatuapé",
+                "postalCode": "03319-000",
+                "isMainUnity": true,
+                "latitude": -23.5467994,
+                "longitude": -46.5742839
+            },
+            {
+                "id": 2,
+                "street": "Mourato Coelho",
+                "number": "1004",
+                "city": "São Paulo",
+                "neighborhood": "Pinheiros",
+                "postalCode": "05417-001",
+                "isMainUnity": false,
+                "latitude": -23.5590351,
+                "longitude": -46.6931201
+            }
+        ],
+        "linkMenu": "https://www.instagram.com/stories/highlights/17864408108059100/",
+        "linkWebsite": "http://www.mamaafricalabonnebouffe.com.br/",
+        "linkInstagram": "https://www.instagram.com/mamaafrica_labonnebouffe/",
+        "tags": [],
+        "foodStyle": ["AFRICAN"]
+    },
+    {
+        "id": 32,
+        "name": "The Circus Bar e Kitchen 🇧🇷",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 33,
+        "name": "Bao N Sando 🇹🇼",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 34,
+        "name": "Mapu Baos e comidinhas 🇹🇼",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 35,
+        "name": "Taverna Medieval 🇧🇷",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 36,
+        "name": "Camarões SP 🇧🇷",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 37,
+        "name": "Casa do Saulo 🇧🇷",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 38,
+        "name": "Sushi Ishii",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 39,
+        "name": "Macondo Raízes Colombianas 🇨🇴",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 40,
+        "name": "Bar Guanabara",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": false,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 41,
+        "name": "Restaurante Illimani 🇻🇪",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 42,
+        "name": "Mii Rooftop",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 43,
+        "name": "URU Mar y Parrilla",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 44,
+        "name": "Bar e Lanches Estadão",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 45,
+        "name": "Arais do Carlinhos 🇦🇲",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": false,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": true,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [],
+        "foodStyle": [""]
+    },
+    {
+        "id": 46,
+        "name": "Wa Bar",
+        "type": "RESTAURANT",
+        "phones": [
+            {
+                "number": "",
+                "isWhatsApp": true
+            }
+        ],
+        "openingHours": {
+            "patternId": "",
+            "customOverrides": []
+        },
+        "isAlreadyVisited": true,
+        "isOpenOnSundays": true,
+        "isOpenOnMonday": false,
+        "isOpenOnHolidays": true,
+        "shouldSchedule": false,
+        "notes": [
+            "🇰🇷 Culinária Sul-Coreana",
+            "Tem karaoke (necessário verificar a disponibilidade das salas)"
+        ],
+        "priceRange": "MEDIUM",
+        "addresses": [
+            {
+                "id": 1,
+                "street": "",
+                "number": "",
+                "city": "São Paulo",
+                "neighborhood": "",
+                "postalCode": "",
+                "isMainUnity": true,
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        ],
+        "linkMenu": "",
+        "linkWebsite": "",
+        "linkInstagram": "",
+        "tags": [
+            "KOREAN"
+        ],
+        "foodStyle": [""]
+    }
+]
